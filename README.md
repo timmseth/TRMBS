@@ -1,6 +1,6 @@
-# About TRMBS
-The Rotating MySQL Backup Script will be an automatic way to keep X days of MySQL database backups will no fuss.
-Designed for a standard LAMP setup and use with cron.
+# The Rotating MySQL Backup Script
+TRMBS is an automatic way to keep X (a user-specified number) days worth of MySQL database backups with no fuss.
+Designed for use with a standard LAMP setup and cron.
 
 ## How I Use This Script
 *  Place it on a LAMP server and safeguard it as necessary.
