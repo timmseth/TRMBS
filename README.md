@@ -2,8 +2,8 @@
 The Rotating MySQL Backup Script will be an automatic way to keep X days of MySQL database backups will no fuss.
 Designed for a standard LAMP setup and use with cron.
 
-## Recommendations
-*  Place on a server and safeguard it as you see fit.
+## How I Use This Script
+*  Place it on a LAMP server and safeguard it as necessary.
 *  Create a cron job to run this script daily.
 
 ### License
