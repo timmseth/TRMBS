@@ -1,7 +1,5 @@
 #!/bin/sh
 
-
-
 # +===========================================+
 # |                  CREDITS                  |
 # +===========================================+
@@ -9,8 +7,6 @@
 # Version: Version 1. Updated September 11, 2017.
 #  Author: Seth Timmons
 # Purpose: An automatic way to keep X days of MySQL database backups.
-
-
 
 # +===========================================+
 # |                  LICENSE                  |
@@ -29,8 +25,6 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with TRMBS.  If not, see <http://www.gnu.org/licenses/>.
-
-
 
 # +===========================================+
 # |                  CONFIG                   |
@@ -64,8 +58,6 @@ BACKUPFILENAME=${DATABASE}.sql
 # You shouldn't need to touch this variable.
 # It creates an archival name based on the TIMESTAMP and BACKUPFILENAME values.
 FILE=${BACKUPFILENAME}.${TIMESTAMP}
-
-
 
 # +==================================================+
 # |                PROGRAM EXECUTION                 |
