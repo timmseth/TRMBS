@@ -45,10 +45,10 @@ TIMESTAMP="$(date +%Y-%m-%d)"
 
 # How many days do we want in our rotating backups?
 # Any backups older than the specified amount will be purged automatically.
-DAYSTOKEEP=365
+DAYSTOKEEP=30
 
 # Your database dumps will be kept in this directory.
-DESTINATION=/tmp      
+DESTINATION=/opt/dbBackups/fido/  
 
 # File name you want to save this databases backups undre.
 # "${DATABASE}.sql" (Database Name) is recommended.
@@ -83,11 +83,11 @@ mysqldump --opt --user=${USER} --password=${PASS} ${DATABASE} > ${DESTINATION}/$
 echo "Zipping to save you space..."
 
 # gzip it.
-gzip $FILE
+gzip ${DESTINATION}/${FILE}
 
 # Display archival success message to user.
 echo "${FILE}.gz was created:"
-ls -l ${FILE}.gz
+ls -l ${DESTINATION}/${FILE}.gz
 
 # === ROTATE IT BASED ON DAYSTOKEEP ===
 echo "Checking for backups that older than ${DAYSTOKEEP} days..."
