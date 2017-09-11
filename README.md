@@ -1,8 +1,8 @@
 # THE FILES IN THIS REPOSITORY ARE UNTESTED. 
 # DO NOT USE.
 
-# TRMBS
-The Rotating MySQL Backup Script
+# About TRMBS
+The Rotating MySQL Backup Script will be an automatic way to keep X days of MySQL database backups will no fuss.
 
 ## License
 This file is part of "The Rotating MySQL Backup Script" known hereafter known as "TRMBS".
