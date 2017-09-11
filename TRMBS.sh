@@ -104,6 +104,7 @@ echo "Checking for backups that older than ${DAYSTOKEEP} days..."
 # It is used to check for old and unneeded gzip files.
 # It is based upon your BACKUPFILENAME and DAYSTOKEEP values 
 TO_DELETE="${BACKUPFILENAME}.$(date -d "${TIMESTAMP} - ${DAYSTOKEEP} days" +%Y-%m-%d)"  
+
 # Check to see if the file we want to delete exists in the directory. 
 # If not it will just exit. 
 if [ -f ${DESTINATION}/${TO_DELETE} ]                            
