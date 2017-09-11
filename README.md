@@ -3,8 +3,8 @@ The Rotating MySQL Backup Script will be an automatic way to keep X days of MySQ
 Designed for a standard LAMP setup and use with cron.
 
 ## Recommendations
-1 Place on a server and safeguard it as you see fit.
-2 Create a cron job to run this script daily.
+*  Place on a server and safeguard it as you see fit.
+*  Create a cron job to run this script daily.
 
 ### License
 This file is part of "The Rotating MySQL Backup Script" known hereafter known as "TRMBS".
