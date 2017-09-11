@@ -6,6 +6,8 @@ Designed for a standard LAMP setup and use with cron.
 *  Place it on a LAMP server and safeguard it as necessary.
 *  Create a cron job to run this script daily.
 
+************************************************************************
+
 ### License
 This file is part of "The Rotating MySQL Backup Script" known hereafter known as "TRMBS".
 
