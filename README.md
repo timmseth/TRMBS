@@ -15,7 +15,7 @@ Designed for use with a standard LAMP setup and cron.
     crontab -e
     ```
     *  If you need help with cron check out https://crontab.guru
-    *  The following job will run daily at 8:20am:
+    *  The following job will run daily at 8:30am:
     ```
     30 8 * * * /full/path/to/TRMBS.sh
     ```
