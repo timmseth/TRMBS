@@ -4,13 +4,17 @@ Designed for use with a standard LAMP setup and cron.
 
 ## How I Use This Script
 *  Place it on a LAMP server and safeguard it as necessary.
-*  Use the following command to make the script executable.
+*  Use the following command in the directory containing TRMBS.sh to make the script executable:
     ```
-    chmod a+x TRMBS.sh
+    chmod a+x ./TRMBS.sh
     ```
 *  Create a cron job to run this script daily. 
-    *  If you need help with cron check out https://crontab.guru/#0_10_*_*_* .
-    *  The following job will run daily at 8:20am.
+    *  Edit your cron jobs by running the following command as root:
+    ```
+    crontab -e
+    ```
+    *  If you need help with cron check out https://crontab.guru
+    *  The following job will run daily at 8:20am:
     ```
     30 8 * * * /opt/dbBackups/fido/TRMBS.sh
     ```
