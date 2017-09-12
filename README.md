@@ -4,7 +4,8 @@ Designed for use with a standard LAMP setup and cron.
 
 ## How I Use This Script
 *  Place it on a LAMP server and safeguard it as necessary.
-*  Use the following command in the directory containing TRMBS.sh to make the script executable:
+    *  Do not put this script in a web-accessible directory.
+    *  Use the following command in the directory containing TRMBS.sh to make the script executable:
     ```
     chmod a+x ./TRMBS.sh
     ```
