@@ -6,17 +6,17 @@ Designed for use with a standard LAMP setup and cron.
 *  Place it on a LAMP server and safeguard it as necessary.
     *  Do not put this script in a web-accessible directory.
     *  Use the following command in the directory containing TRMBS.sh to make the script executable:
-    ```
+    ```bash
     chmod a+x ./TRMBS.sh
     ```
 *  Create a cron job to run this script daily. 
     *  Edit your cron jobs by running the following command as root:
-    ```
+    ```bash
     crontab -e
     ```
     *  If you need help with cron check out https://crontab.guru
     *  The following job will run daily at 8:30am:
-    ```
+    ```bash
     30 8 * * * /full/path/to/TRMBS.sh
     ```
 
